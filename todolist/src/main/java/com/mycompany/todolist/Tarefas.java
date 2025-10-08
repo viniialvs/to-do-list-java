@@ -55,6 +55,8 @@ public class Tarefas {
         if(tarefas.isEmpty()) {
             System.out.println("Nao ha tarefas para remover!");
             return;
+        }else {
+            listarTarefas();
         }
         while(!valido) {
             try {
